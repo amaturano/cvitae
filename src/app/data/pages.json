@@ -1,0 +1,67 @@
+[
+    {
+        "id":"home-page",
+        "name":"Home Page",
+        "analytics":{
+            "category":"someCategory",
+            "tag":"MaturanoCV-homePage"
+        },
+        "actions":{
+            "getConfiguration":{
+                "type":"HTTP",
+                "method":"GET",
+                "headers":[],
+                "url":"https://example.com"
+            }
+        },
+        "render-size":{
+            "xs":{
+                "layout":{
+                   "header":{
+
+                   },
+                   "footer":{
+
+                   }
+                },
+                "components":[
+                    {
+                        "id":"banner",
+                        "selector":"app-hero-banner",
+                        "context":{
+                            "title":{
+                                "text":"SomeTitle",
+                                "style":{
+                                    
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "sm":{
+
+            },
+            "md":{
+
+            },
+            "lg":{
+
+            },
+            "xl":{
+
+            }
+        },
+        "before-render":{
+            "dispatch-actions":[
+                "getConfiguration"
+            ]
+        },
+        "after-render":{
+            "dispatch-actions":[
+                "getCountriesList",
+                "saveLead"
+            ]
+        }
+    }
+]

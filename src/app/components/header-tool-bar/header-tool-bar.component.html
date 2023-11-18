@@ -1,0 +1,10 @@
+<mat-toolbar #mainToolBar>
+  <div class="mainContainer">
+    <span #titleBar>{{title}}</span>
+    <div style="display:flex; justify-content:center; align-items:center;">
+      <h1>🌞</h1>
+      <mat-slide-toggle (change)="onToggleChange($event)"></mat-slide-toggle>
+      <h1>🌛</h1>
+    </div>
+  </div>
+</mat-toolbar>

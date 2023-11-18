@@ -1,0 +1,11 @@
+.mainContainer{
+    display: flex;
+    flex:2;
+    flex-direction: row;
+    width: 100%;
+}
+
+span{
+    flex:1;
+    align-items:flex-end;
+}

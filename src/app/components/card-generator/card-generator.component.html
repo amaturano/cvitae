@@ -1,0 +1,12 @@
+<mat-card #cardContainer>
+  <mat-card-header #cardHeader>
+    <mat-card-title #cardTitle>{{title}}</mat-card-title>
+    <mat-card-subtitle #cardSubtitle>{{subtitle}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content #cardDescription>
+    {{description}}
+  </mat-card-content>
+  <mat-card-actions >
+    <button [ngStyle]="style$ | async" *ngFor="let button of actionButtons" mat-button #cardButton >{{button.title}}</button>
+  </mat-card-actions>
+</mat-card>

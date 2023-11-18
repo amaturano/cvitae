@@ -1,0 +1,25 @@
+{
+    "defaultSelection":"light",
+    "dark":{
+        "primaryColor":"#000000",
+        "backgroundDocument": "#14213d",
+        "titles":"#e5e5e5",
+        "subtitles":"#e0e1dd",
+        "texts":"#f4f3ee",
+        "warning":"#fcbf49",
+        "error":"#ef233c",
+        "success":"#06d6a0",
+        "buttons": "#fee440"
+    },
+    "light":{
+        "primaryColor":"#ffffff",
+        "backgroundDocument": "#e5e5e5",
+        "titles":"#14213d",
+        "subtitles":"#778da9",
+        "texts":"#1b263b",
+        "warning":"#fcbf49",
+        "error":"#ef233c",
+        "success":"#06d6a0",
+        "buttons": "#fca311"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "components": {
+        "HeaderToolBarComponent": {
+            "title": "My Application"
+        },
+        "CardsComponent": [
+            {
+                "title": "Title One",
+                "image": "assets/imageOne.png",
+                "subtitle": "Subtitle One",
+                "description": "This is the description number one",
+                "actionButtons": [
+                    {
+                        "title": "SAVE",
+                        "link": ""
+                    },
+                    {
+                        "title": "ADD",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "title": "Title Two",
+                "image": "assets/imageOne.png",
+                "subtitle": "Subtitle Two",
+                "description": "This is the description number Two",
+                "actionButtons": [
+                    {
+                        "title": "SAVE",
+                        "link": ""
+                    },
+                    {
+                        "title": "ADD",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "title": "Title Three",
+                "image": "assets/imageOne.png",
+                "subtitle": "Subtitle Three",
+                "description": "This is the description number Three",
+                "actionButtons": [
+                    {
+                        "title": "SAVE",
+                        "link": ""
+                    },
+                    {
+                        "title": "ADD",
+                        "link": ""
+                    }
+                ]
+            }
+        ]
+    }
+}

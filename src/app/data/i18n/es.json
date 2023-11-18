@@ -1,0 +1,57 @@
+{
+    "components": {
+        "HeaderToolBarComponent": {
+            "title": "Mi Aplicación"
+        },
+        "CardsComponent": [
+            {
+                "title": "Titulo Uno",
+                "image": "assets/imageOne.png",
+                "subtitle": "Subtitulo Uno",
+                "description": "Esta es la descripción número uno",
+                "actionButtons": [
+                    {
+                        "title": "GUARDAR",
+                        "link": ""
+                    },
+                    {
+                        "title": "AGREGAR",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "title": "Titulo Dos",
+                "image": "assets/imageOne.png",
+                "subtitle": "Subtitulo Dos",
+                "description": "Esta es la descripcion número dos",
+                "actionButtons": [
+                    {
+                        "title": "GUARDAR",
+                        "link": ""
+                    },
+                    {
+                        "title": "AGREGAR",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "title": "Titulo Tres",
+                "image": "assets/imageOne.png",
+                "subtitle": "Subtitulo tres",
+                "description": "Esta es la descripción número tres",
+                "actionButtons": [
+                    {
+                        "title": "GUARDAR",
+                        "link": ""
+                    },
+                    {
+                        "title": "AGREGAR",
+                        "link": ""
+                    }
+                ]
+            }
+        ]
+    }
+}

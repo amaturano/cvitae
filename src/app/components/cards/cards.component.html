@@ -1,0 +1,8 @@
+<div *ngFor="let item of data | async">
+    <app-card-generator
+    [title]="item.title"
+    [subtitle]="item.subtitle"
+    [description]="item.description"
+    [actionButtons]="item.actionButtons"
+    ></app-card-generator>
+</div>
